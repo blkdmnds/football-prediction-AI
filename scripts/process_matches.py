@@ -3,7 +3,7 @@ import json
 from datetime import datetime, timedelta
 
 API_URL = 'https://api.football-data.org/v4'
-API_KEY = '30a73678de154817a67607401b947eff'
+API_KEY = 'YOUR_API_KEY'
 
 def fetch_matches(date_from=None, date_to=None):
     headers = {'X-Auth-Token': API_KEY}
