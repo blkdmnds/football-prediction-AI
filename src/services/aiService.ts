@@ -3,7 +3,7 @@ import { API_CONFIG } from '../config/api';
 import { Match } from '../types/matches';
 import { MatchAnalysis } from '../types/analysis';
 
-const AI_API_KEY = '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';
+const AI_API_KEY = 'YOUR_API_KEY';
 const BASE_URL = 'https://openrouter.ai/api/v1';
 
 const aiApi = axios.create({
