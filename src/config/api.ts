@@ -1,6 +1,6 @@
 export const API_CONFIG = {
   BASE_URL: 'https://api.football-data.org/v4',
-  API_KEY: '30a73678de154817a67607401b947eff',
+  API_KEY: 'YOUR_API_KEY',
   SUPPORTED_COMPETITIONS: [
     { id: 'PL', name: 'Premier League' },
     { id: 'PD', name: 'La Liga' },
